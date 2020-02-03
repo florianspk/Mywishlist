@@ -1,0 +1,304 @@
+html {
+	font: 400 12px/1.667 "Open Sans", sans-serif;
+}
+
+.menu {
+	background-color: white;
+	left: 0;
+	overflow: hidden;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	width: 100%;
+	height: 50px;
+	z-index: 100;
+	border: 0px;
+	border-bottom: 2px;
+	border-style: solid;
+	border-color: #AAA;
+}
+
+#logo > a > img{
+	font: 400 32px/1.667 "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	float: left;
+}
+
+#menu_button{
+	position: relative;
+	float: right;
+	margin: 0;
+	padding:0;
+	height: 100%;
+}
+
+#menu_button > ul {
+	position: relative;
+	display: flex;
+	list-style: none;
+	margin: auto;
+	height: 100%;
+}
+
+.bouton {
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+	transition: all 0.3s linear;
+	border: 10px;
+	border-style: solid; border-color: #C22;
+	background:#C22;
+	text-align: center;
+	color: white;
+	padding: 0;
+	margin: auto;
+}
+
+.bouton:hover {
+	border-color: #C55;
+	background:#C55;
+}
+
+body {
+	background-image: url(../img/accueil01.jpg);
+	background-attachment: fixed;
+}
+
+#first{
+	font: 400 24px/1.667 "Open Sans", sans-serif;
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+	position: fixed;
+ 	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	align-content: center;
+	margin-top: 25%;
+	width: 50%;
+	z-index: 10;
+}
+
+#first > a {
+	width: 30%;
+}
+
+#second{
+	font: 400 20px/1.667 "Open Sans", sans-serif;
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+	position: absolute;
+ 	left: 0px;
+	text-align: center;
+	top: 100%;
+	width: auto;
+    box-sizing: border-box;
+	z-index: 50;
+	border-top: solid;
+}
+
+#con1{
+	font: 400 24px/1.667 "Open Sans", sans-serif;
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	align-content: center;
+	margin-top: 5%;
+	width: 30%;
+	height: auto;
+	z-index: 10;
+}
+
+#con2 > a{
+	width: 40%;
+}
+
+.exception {
+	color: red;
+	font-size: 15px;
+}
+
+
+#form1{
+	font-size: 24px;
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+	position: absolute;
+ 	left: 50%;
+	transform: translate(-50%, -0px);
+	text-align: center;
+	align-content: center;
+	margin-top: 80px;
+	width: 30%;
+	height: auto;
+	z-index: 10;
+}
+
+#form2 > a{
+	width: 40%;
+}
+
+.inputCon {
+	width: 80%;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.inputForm {
+	width: 80%;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.carte {
+	position: relative;
+	display: flex;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	width: 10%;
+	height: 30px;
+}
+
+.carte > input {
+	margin: 5px;
+}
+
+#form2 > form {
+	font-size: 12px;
+}
+
+fieldset {
+		border-radius: 5px;
+}
+
+fieldset > legend{
+		font-size: 24px;
+}
+
+.Danex {
+	width: auto;
+	overflow: hidden;
+	display: inline-flex;
+	font-size: 12px;
+}
+
+#shop {
+	font: 400 24px/1.667 "Open Sans", sans-serif;
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+	position: absolute;
+ 	left: 50%;
+	transform: translate(-50%, -0px);
+	text-align: center;
+	align-content: center;
+	margin-top: 70px;
+	width: 90%;
+	min-width: 100px;
+	min-height: 20%;
+	z-index: 10;
+}
+
+.article {
+	padding: 2px;
+	background: #DDD;
+	margin: 0;
+	border: 1px;
+	border-style: solid; 
+	border-color: #AAA;
+	height: 15%;
+	overflow: hidden;
+	margin: 5px;
+}
+
+.article > .title{
+	margin: 0;
+	padding:0;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	left: 180px;
+	font-size: 28px;
+}
+
+.article > .desc{
+	display: flex;
+	position: absolute;
+	text-align: left;
+	text-justify: inter-character;
+	transform: translate(-0%, +26px);
+	left: 170px;
+	height: 10%;
+	width: 45%;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+.achat {
+	position: relative;
+	top: 0px;
+	bottom: 5px;
+	float: right;
+}
+
+.achat > prix {
+	
+}
+
+.article > a >img {
+	float: left;
+	left: 0;
+	height: 138px;
+	overflow: hidden
+}
+
+label {
+	font-size: 20px;
+	float: left;
+	text-align: right;
+}
+
+input:not([type=submit]):focus {
+	border-color:#333;
+}
+
+input:not([type=submit]) {
+	border-radius: 5px;
+	float: right;
+	text-align: left;
+	font-size: 18px;
+	width: 50%;
+}
+
+input[type=submit], button {
+	font: 400 18px/1.667 "Open Sans", sans-serif;
+	padding:5px 15px;
+	background:#ccc;
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.center {
+	font-size: 24px;
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	align-content: center;
+	margin-top: 15%;
+	width: 50%;
+	min-width: 500px;
+	z-index: 10;
+	min-height: 60px;
+}
